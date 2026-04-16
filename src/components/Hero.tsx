@@ -112,7 +112,7 @@ const Hero = () => {
 			</section>
 
 			<div className='video absolute inset-0'>
-                { /* we should use FFmpeg to make mp4 smooth for gsap */}
+				{/* we should use FFmpeg to make mp4 smooth for gsap */}
 				<video
 					ref={videoRef}
 					muted
